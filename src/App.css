@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
+  flex: 1;
+  align-content: space-between;
+  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.header__menu{
+  position: absolute;
+  right: 0;
+}
+
+.header__menu > ul{
+  display: flex;
+}
+
+.header__menu > ul > li {
+  list-style: none;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  padding: 10px;
+}
+
+.langLogo{
+  width: 24px;
+  height: 24px;
+}
+
+.header__button{
+  border: none;
+    height: 40px;
+    width: 100px;
+    background: none;
+    font-size: 16px;
+    font-family: cursive;
+}
+.header__button:hover{
+    border: none;
+    height: 40px;
+    width: 100px;
+    background: none;
+    font-size: 16px;
+    font-family: cursive;
+    color: #ff790f;
+}
+.header__buttonSignUp{
+  border: solid;
+    height: 40px;
+    width: 100px;
+    background: none;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 5px;
+    border-color: #ff790f;
+    border-width: 2px;
+}
+.header__buttonSignUp:hover{
+  border: solid;
+  height: 40px;
+  width: 100px;
+  background:  #ff790f;
+  font-size: 16px;
+  font-family: cursive;
+  border-radius: 5px;
+  border-color: #ff790f;
+  border-width: 2px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

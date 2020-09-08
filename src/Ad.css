@@ -1,0 +1,91 @@
+.ad{
+    border: 1px solid #d3d3d3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.ad > h3 {
+    text-align: right;
+    margin: 20px;
+}
+.ad__Information{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad__Information__UserLogo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.ad__Information__UserLogo > p {
+    width: 200px;
+    text-align: start;
+
+}
+
+
+.ad__Information__Date{
+    display: contents;
+    width: 50%;
+}
+
+.ad__button{
+    display: flex;
+    margin: 20px;
+}
+
+.ad__button > button{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border: solid;
+    border-width: 2px;
+    border-color: #ff790f;
+    background-color: #ffffff00;
+    border-radius: 5px;
+    color: #000000;
+
+}
+.ad__button > button:hover{
+    color: white;
+    background-color: #ff790f;
+    border: none;
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    .ad{
+        border: 1px solid #d3d3d3;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 90vw;
+    }
+    .ad__Information{
+        display: grid;
+        margin: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ad__Information__UserLogo{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .ad__Information__UserLogo > p {
+        width: 100%;
+        text-align: start;
+    }
+    .ad__Information__Date{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+}

@@ -1,0 +1,46 @@
+.messages{
+    background-color: #efefef;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;    
+    display: grid;
+}
+
+
+.messages >h1{
+    width: 100%;
+
+}
+
+.messages__body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.messages__friends{
+    width: 50%;
+}
+
+.messages__chat{
+    width: 50%;
+}
+
+@media only screen and (max-width:768px){
+    .messages{
+        display: grid;
+        justify-content: space-between;
+        background-color: none;
+        border-bottom: solid;
+        border-bottom-color: #ff790f;
+        padding: 20px;
+        border-radius: 20px 20px 0px 0px;
+        margin-top: 50px;
+        align-items: center;
+        text-align: start;
+        border-width: 1px;
+
+    }
+}

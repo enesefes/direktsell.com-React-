@@ -1,0 +1,10 @@
+.sidebar{
+    padding:20px;
+    overflow: scroll;
+    height: 60vh;
+}
+
+.sidebar__friends:hover{
+
+}
+

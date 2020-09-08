@@ -1,0 +1,40 @@
+.company{
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+    border-bottom: solid;
+    border-bottom-color: #ff790f;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: start;
+    border-width: 1px;
+}
+.company:hover{
+    background-color: #f7c59f;
+    border-radius: 20px;
+    border: none;
+}
+
+.company__img{
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width:768px){
+    .company{
+        display: grid;
+        justify-content: space-between;
+        background-color: none;
+        border-bottom: solid;
+        border-bottom-color: #ff790f;
+        padding: 20px;
+        border-radius: 20px 20px 0px 0px;
+        margin-top: 50px;
+        align-items: center;
+        text-align: start;
+        border-width: 1px;
+
+    }
+}

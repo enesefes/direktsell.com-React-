@@ -1,0 +1,21 @@
+#app__bar{
+    background-color: white;
+}
+
+#typography__appbar{
+    color: black;
+}
+
+.linkler{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: inherit;
+}
+
+#listItem__link{
+    background-color:#ffe1c8;
+}

@@ -1,0 +1,182 @@
+
+
+.ads{
+    margin: 0px 20px 20px 20px;
+    display: grid;
+    
+}
+
+.ads__h2{
+    width: 80vw;
+}
+
+
+.adsContent{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(213, 213, 213, 0.2);
+    border-radius: 20px 20px 0px 0px;
+    width: 80%;
+}
+
+.ads__form{
+    display: grid;
+    margin: 20px;
+}
+
+.ads__form > input {
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff00;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin: 20px;
+
+
+}
+
+.ads__form > input:focus{
+    outline-color: #ff790f;
+    
+    
+}
+
+
+.ads__form__button{
+    display: flex;
+    margin: 20px;
+}
+
+
+
+.ads__form__button > button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    
+    border-radius: 20px;
+    background: #ff790f;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0px 0px 16px 0px #6d6d6d42;
+    margin: 0px 0px auto auto;
+
+}
+.ads__form__button > button:hover{
+    background: #e26403;
+}
+.ads__form__button > button:focus{
+    outline: none;
+}
+
+
+.filterTop{
+    display: grid;
+    margin: 20px;
+}
+.ads__Header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.ads__Header__filters{
+    flex: auto;
+}
+
+.ads__button{
+    border: none;
+    background: none;
+    width: 150px;
+    height: 40px;
+    outline: auto;
+    outline-color: #ff790f;
+    margin: 10px;
+}
+.ads__button:hover{
+    border: none;
+    background: #ff790f;
+    color: white;
+    width: 150px;
+    height: 40px;
+    outline: auto;
+    outline-color: #ff790f;
+}
+
+.ads_search{
+    text-align: start;
+    display: flex;
+    margin-top: 20px;
+}
+
+.ads_search > .MuiSvgIcon-root{
+    align-self: center;
+}
+
+.ads_search > input {
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff00;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.ads_search > input:focus{
+    outline-color: #ff790f;
+}
+@media only screen and (max-width: 768px){
+    .ads{
+        margin: 20px;
+        display: grid;
+        
+    }
+    .ads__form__button{
+        display: grid;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .ads__form__button > button {
+        height: 40px;
+        margin-top: 20px;
+        border: none;
+        width: 100%;
+        border-radius: 20px;
+        background: #ff790f;
+        color: white;
+        font-size: 16px;
+        box-shadow: 0px 0px 16px 0px #6d6d6d42;
+        margin: 20px auto auto;
+    }
+
+    .ads__form > input {
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background-color: #ffffff00;
+        border-radius: 20px;
+        margin: 0px !important;
+    }
+    .ads__h2{
+        width: 80vw;
+    }
+    
+    
+    .adsContent{
+        margin: 0 auto;
+        box-sizing: border-box;
+        background-color: rgba(213, 213, 213, 0.2);
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+    }
+    
+    .ads__form{
+        display: grid;
+        margin: 20px;
+    }
+
+    
+}

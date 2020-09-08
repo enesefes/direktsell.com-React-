@@ -1,0 +1,27 @@
+.chat{
+    display: grid;
+    padding: 20px;
+}
+.chat__header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.chat__header > img {
+    width: 100px;
+}
+
+.chat__body{
+    height: 60vh;
+    overflow: scroll;
+}
+
+.chat__body > p {
+    width: auto;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    height:  30px;
+    text-align: center;
+}
